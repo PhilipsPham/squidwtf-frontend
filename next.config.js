@@ -18,11 +18,11 @@ const nextConfig = {
     return [
       {
         source: '/api/get-music',
-        destination: 'http://sv.audios.stream/api/get-music',
+        destination: 'http://sv.hdmusics.com:8080/api/get-music',
       },
       {
         source: '/api/download-music',
-        destination: 'http://sv.audios.stream/api/download-music',
+        destination: 'http://sv.hdmusics.com:8080/api/download-music',
       },
     ]
   },
